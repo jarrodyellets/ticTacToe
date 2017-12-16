@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Press+Start+2P|Raleway|Rationale'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <div class="container-fluid monitor crt">
+
+    <!--     logo -->
+    <div class="l-splash">
+      <span><i class="fa fa-free-code-camp" aria-hidden="true"></i></span>
+    </div>
+
+    <!--     Splash info page -->
+    <div class="splash">
+      <h2>Tic Tac Toe</h2>
+      <p>This tic tac toe app was created by Jarrod Yellets for freeCodeCamp. The hard version of this game is impossible to beat...or at least it should be.  Copywrite 2017. All rights Reserved.</p>
+    </div>
+    
+<!--     Choose Level -->
+    <div class="level"><h2 class="title">Level</h2><div id="easy">Easy </div><div id="hard"> Hard</div></div>
+
+    <!--     Choose X or O -->
+    <div class="choose">
+      <h2 class="title">Choose</h2><span class="letter" id="X"><i class="fa fa-times" aria-hidden="true">   </i></span><span class="letter" id="O">   <i class="fa fa-circle-o" aria-hidden="true"></i></span>
+    </div>
+
+    <!--     Winner alert -->
+    <div class="winner"><span id="alert"></span></div>
+
+    <!--     Scoreboard -->
+    <div class="score">
+      <h2>Score:</h2>
+      <div class="scoreDiv">Player: <span id="pScore">0</span>
+      </div>
+      <div class="scoreDiv">Computer: <span id="cScore">0</span>
+      </div>
+    </div>
+
+    <!--     Game board -->
+    <div class="board">
+      <div class="square" id="0"></div>
+      <div class="square verticle" id="1"></div>
+      <div class="square" id="2"></div>
+      <div class="square horizontal" id="3"></div>
+      <div class="square horizontal verticle" id="4"></div>
+      <div class="square horizontal" id="5"></div>
+      <div class="square" id="6"></div>
+      <div class="square verticle" id="7"></div>
+      <div class="square" id="8"></div>
+    </div>
+
+  </div>
+
+  <!--   Buttons -->
+  <div class="buttons"><button id="scoreBtn">Score</button><button id="resetBtn">Reset</button></div>
+</div>
+
+<footer>
+  <div id="author">&copy; Jarrod Yellets | 2017</div>
+</footer>
+  <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script src='https://use.fontawesome.com/f1ba2b81d2.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
